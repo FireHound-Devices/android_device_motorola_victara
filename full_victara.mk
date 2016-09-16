@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2014 The CyanogenMod Project
 #
@@ -17,12 +18,12 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from victara device
+# Inherit from titan device
 $(call inherit-product, device/motorola/victara/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := victara
-PRODUCT_NAME := full_victara
+PRODUCT_NAME := fh_victara
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := victara
 PRODUCT_MANUFACTURER := motorola
